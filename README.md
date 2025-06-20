@@ -2,7 +2,7 @@
 
 A simple Java automation project demonstrating how testers can integrate **Selenium**, **TestNG**, **Allure Reports**, and **Slack notifications** into a **CI/CD pipeline** using **GitHub Actions**.
 
-> 🔧 I created this repository to demonstrate how testers can leverage GitHub Actions for test automation workflows and integrate Slack for notification — as part of a detailed [LinkedIn article](#) explaining all the steps involved in setup, execution, and reporting.
+> 🔧 I created this repository to demonstrate how testers can leverage GitHub Actions for test automation workflows and integrate Slack for notification — as part of a detailed [LinkedIn article](https://www.linkedin.com/pulse/%D8%A7%D8%B2%D8%A7%D9%89-%D8%AA%D8%B7%D8%A8%D9%82-%D8%A7%D9%84%D9%80-cicd-%D8%A8%D9%86%D9%81%D8%B3%D9%83-hossam-eldin-mohamed-oaeoe) explaining all the steps involved in setup, execution, and reporting.
 
 ---
 
