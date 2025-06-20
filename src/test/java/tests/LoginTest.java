@@ -2,31 +2,20 @@ package tests;
 
 import Pages.LoginPage;
 import io.qameta.allure.*;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import java.time.Duration;
 
 @Epic("SauceDemo Authentication")
 @Feature("Login Functionality")
 public class LoginTest {
 
-    private WebDriver driver;
 
     LoginPage loginPage;
 
-//
-//    // Test data
 
+    // Test data
     private final String VALID_USERNAME = "standard_user";
     private final String VALID_PASSWORD = "secret_sauce";
     private final String INVALID_USERNAME = "invalid_user";
@@ -38,19 +27,7 @@ public class LoginTest {
     @Step("Setup browser and navigate to SauceDemo")
     public void setUp() {
 
-//        ChromeOptions options = new ChromeOptions();
-//       // options.addArguments("--headless"); // Run in headless mode for CI/CD
-//        options.addArguments("--no-sandbox");
-//        options.addArguments("--disable-dev-shm-usage");
-//        options.addArguments("--disable-gpu");
-//        options.addArguments("--window-size=1920,1080");
-//
-//        driver = new ChromeDriver(options);
-//        wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-//
-//        driver.get(BASE_URL);
-//        Allure.addAttachment("Test URL", BASE_URL);
-       loginPage = new LoginPage();
+        loginPage = new LoginPage();
         loginPage.navigateToLoginPage();
 
     }

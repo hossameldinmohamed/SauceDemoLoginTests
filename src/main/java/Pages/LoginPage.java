@@ -20,10 +20,7 @@ public class LoginPage {
 
     // Test data
     private final String BASE_URL = "https://www.saucedemo.com/";
-    private final String VALID_USERNAME = "standard_user";
-    private final String VALID_PASSWORD = "secret_sauce";
-    private final String INVALID_USERNAME = "invalid_user";
-    private final String INVALID_PASSWORD = "invalid_password";
+
 
 
     // Locators
